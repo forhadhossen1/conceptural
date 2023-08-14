@@ -60,3 +60,13 @@ document.getElementById('allahhuakberDecriment').addEventListener('click', funct
     allahhuakberIncrimentValue -= 1;
     allahhuakberDisplay.innerText =allahhuakberIncrimentValue;
 })
+
+
+document.getElementById('reset-btn').addEventListener('click', function(){
+                subhanallahDisplay.innerText = 0;
+                allhamdulillahDisplay.innerText = 0;
+                allahhuakberDisplay.innerText = 0;
+                subhanallahIncrimentValue = 0;
+                allahhuakberIncrimentValue = 0;
+                allhamdulillahIncrimentValue = 0;
+})
